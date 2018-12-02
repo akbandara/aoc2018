@@ -1,5 +1,5 @@
 
-def string_diff(string1, string2):
+def string_diff_count(string1, string2):
     diff_count = 0
     for i in range(0, len(string1)):
         if string1[i] != string2[i]:
@@ -11,7 +11,7 @@ data = open('day2-input.txt', 'r').read().split('\n') # read the input file
 for box_id1 in data:
     for box_id2 in data:
         #print("Comparing Box IDs: " + box_id1 + " | " + box_id2)
-        if string_diff(box_id1, box_id2) == 1:
+        if string_diff_count(box_id1, box_id2) == 1:
             print("FOUND Match:")
             print(box_id1)
             print(box_id2)
