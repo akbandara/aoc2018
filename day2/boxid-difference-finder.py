@@ -1,7 +1,7 @@
 
 def string_diff(string1, string2):
     diff_count = 0
-    for i in range(0, len(string1)-1):
+    for i in range(0, len(string1)):
         if string1[i] != string2[i]:
             diff_count = diff_count + 1
     return diff_count
@@ -15,3 +15,12 @@ for box_id1 in data:
             print("FOUND Match:")
             print(box_id1)
             print(box_id2)
+            box_id_common_chars = ''
+            for i in range(0, len(box_id1)):
+                if box_id1[i] == box_id2[i]:
+                    box_id_common_chars = box_id_common_chars + box_id1[i]
+            print("COMMON Chars = " + box_id_common_chars)
+            exit()
+
+        
+            
