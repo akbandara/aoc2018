@@ -8,7 +8,7 @@ def check_char_freq(word, freq):
     char_counts = collections.Counter(word)
     return (freq in char_counts.values())
 
-data = open('day2-input.txt', 'r').read().split('\n') # read the input file
+data = open('day2/day2-input.txt', 'r').read().split('\n') # read the input file
 
 for line in data:
     if check_char_freq(line, 2):

@@ -6,7 +6,7 @@ def string_diff_count(string1, string2):
             diff_count = diff_count + 1
     return diff_count
 
-data = open('day2-input.txt', 'r').read().split('\n') # read the input file
+data = open('day2/day2-input.txt', 'r').read().split('\n') # read the input file
 
 for box_id1 in data:
     for box_id2 in data:
