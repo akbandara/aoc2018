@@ -7,3 +7,4 @@ Working with my 11-year old to improve our Python skills by taking on the Advent
 * Day 3: "No Matter How You Slice It" - string parsing, array manipulation (/day3)
 * Day 4: "Repose Record" - string parsing, sorting, dictionaries (/day4)
 * Day 5: "Alchemical Reduction" - string manipulation (/day5)
+* Day 6: "Chronal Coordinates" - array manipulation, nested loops (/day6)
